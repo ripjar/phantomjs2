@@ -84,7 +84,7 @@ whichDeferred.promise
   })
   .then(function (stdout) {
     var version = stdout.trim()
-    if (helper.version == version) {
+    if (true) {
       writeLocationFile(phantomPath);
       console.log('PhantomJS is already installed at', phantomPath + '.')
       exit(0)
